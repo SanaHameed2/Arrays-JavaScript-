@@ -25,10 +25,5 @@ let fruits = ["Apple", "Banana", "Cherry", "Peach", "Mango"];
 fruits.unshift("Orage"); // Adds "Orange" to the beginning of the array
 console.log(fruits);
 
-
-// // Purpose: Add and remove items using unshift() and shift()
-// Topic: Array Methods - unshift & shift
-
-let fruits = ["Apple", "Banana", "Cherry", "Peach", "Mango"];
 fruits.shift(); // Removes the first item ("Orange")
 console.log(fruits); // ["Banana", "Cherry", "Peach", "Mango"]
